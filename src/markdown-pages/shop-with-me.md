@@ -8,28 +8,22 @@ description: "e-commerce website"
 
 [Github link](https://github.com/Svetanek/shop-with-me)
 
+**[See Live](https://shopwithme-live.herokuapp.com/)**
+
 This is an e-commerce application similar to Shopify .
 It is a full stack app (MERN stack) with Firebase database.
 
 Technologies used:
 
-- React
-- React Router
-- Redux
-- Redux Saga
-- Asynchronous Redux
-- React Hooks
-- Context API
-- React Suspense + React Lazy
-- Firebase
-  - Stripe API
-- Styled-Components
-- GraphQL
-- Apollo
-- PWAs
-- React Performance
-- React Design Patterns
-- Testing with Jest, Enzyme and Snapshot testing
-- Persistance + Session Storage
-- State Normalization
-- and more
+|                                                |                               |
+| ---------------------------------------------- | ----------------------------- |
+| React                                          | Redux                         |
+| React Router                                   | Redux Saga                    |
+| React Hooks                                    | Asynchronous Redux            |
+| React Suspense + React Lazy                    | Context API                   |
+| React Performance                              | Persistance + Session Storage |
+| Firebase                                       | State Normalization           |
+| Stripe API                                     | Styled Components             |
+| GraphQL                                        | Responsive Design             |
+| Apollo                                         | PWA                           |
+| Testing with Jest, Enzyme and Snapshot testing |
