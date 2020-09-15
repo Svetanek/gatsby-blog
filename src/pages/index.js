@@ -3,7 +3,8 @@ import { graphql, Link } from "gatsby"
 import styled from "styled-components"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+// import ProfileImage from "../components/image"
+import About from "../components/about"
 import SEO from "../components/seo"
 
 const BlogLink = styled(Link)`
@@ -18,15 +19,8 @@ export default ({ data }) => (
   <Layout>
     <SEO title="Home" />
     <div>
-      <div
-        style={{
-          maxWidth: `250px`,
-          marginBottom: `1.45rem`,
-        }}
-      >
-        <Image />
-      </div>
-      <h1>My blog with list of projects</h1>
+      <About />
+      <h1>List of projects</h1>
       <h4>{data.allMarkdownRemark.totalCount} posts</h4>
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <div key={node.id}>
@@ -39,11 +33,14 @@ export default ({ data }) => (
         </div>
       ))}
     </div>
+    <Link to="/resume/">
+      <button>RESUME</button>
+    </Link>{" "}
+    <br />
+    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
     {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div> */}
-    <Link to="/resume/">RESUME</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   </Layout>
 )
 

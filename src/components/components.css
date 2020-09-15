@@ -1,0 +1,39 @@
+#header {
+  background: #e04251;
+  margin-bottom: 1.45rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.45rem 1.45rem;
+}
+
+#header-nav {
+  display: flex;
+  color: #ffff;
+}
+.header-nav-link {
+  padding: 0 2rem;
+  color: #ffff;
+}
+#header-title {
+  margin: 0;
+}
+
+#header-title-link {
+  color: white;
+  text-decoration: none;
+  margin: 0;
+}
+#profile-container {
+  width: 12rem;
+}
+
+#profile-image {
+  max-width: 180px;
+  margin: 0 0 1.45rem 0;
+}
+
+/* style={{
+  maxWidth: 960,
+  padding: `1.45rem 1.45rem`,
+}} */

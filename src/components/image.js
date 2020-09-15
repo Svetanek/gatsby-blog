@@ -1,7 +1,11 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import styled from "styled-components"
 
+const StyledImg = styled(Img)`
+  border-radius: 50%;
+`
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
  * images with lazy loading and reduced file sizes. The image is loaded using a
@@ -13,7 +17,7 @@ import Img from "gatsby-image"
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-const Image = () => {
+const ProfileImage = () => {
   const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(relativePath: { eq: "profilePic.jpg" }) {
@@ -26,7 +30,7 @@ const Image = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return <StyledImg fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 
-export default Image
+export default ProfileImage
