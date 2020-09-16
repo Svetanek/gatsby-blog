@@ -7,6 +7,6 @@ description: "group project e-commerce website"
 This is a group project.
 E-commerce website using React, Redux, Express and tests with Mocha, Chai, Enzyme.
 
-<img src="https://github.com/Svetanek/gatsby-blog/raw/master/src/images/rr-tees.png" height="315" alt ="screenshot rougue rabbit tees"/>
+<img src="https://github.com/Svetanek/gatsby-blog/raw/master/src/images/rr-tees.png" alt ="screenshot rougue rabbit tees" class="project-img"/>
 
-[Github link](https://github.com/rogue-rabbits/grace-shopper)
+<a href="https://github.com/rogue-rabbits/grace-shopper" class="project-link">Gihub Link</a>

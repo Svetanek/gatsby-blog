@@ -595,3 +595,18 @@ pre tt:after {
     font-size: 100%;
   }
 }
+.project-img {
+  border: 10px solid grey;
+  border-radius: 3%;
+  height: 300px;
+}
+
+.project-link {
+  text-decoration: none;
+  color: red;
+}
+#main-container {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 0 1.0875rem 1.45rem;
+}

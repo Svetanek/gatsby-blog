@@ -6,7 +6,7 @@ description: "group project"
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-BfZi9GQ_qc?start=63" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[Github link](https://github.com/lima-dove/KnowNYC)
+<a href="https://github.com/lima-dove/KnowNYC" class="project-link">Gihub Link</a>
 
 KnowNYC began as a member of our team was apartment searching after finding out too late about all the chronic issues his current building suffered. Had there only been an easy map that layed out all the most common problems in each building, they might have never moved to that
 building in the first place!

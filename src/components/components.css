@@ -5,6 +5,7 @@
   justify-content: space-around;
   align-items: center;
   padding: 1.45rem 1.45rem;
+  height: 15vh;
 }
 
 #header-nav {
@@ -16,7 +17,7 @@
   color: #ffff;
 }
 #header-title {
-  margin: 0;
+  margin: 1rem 2rem;
 }
 
 #header-title-link {
@@ -25,15 +26,21 @@
   margin: 0;
 }
 #profile-container {
-  width: 12rem;
 }
 
 #profile-image {
   max-width: 180px;
   margin: 0 0 1.45rem 0;
 }
+#footer {
+  height: 10vh;
+  background: #e04251;
+  padding: 1.3rem;
+  color: #fff;
+  left: 20%;
+}
 
-/* style={{
-  maxWidth: 960,
-  padding: `1.45rem 1.45rem`,
-}} */
+a {
+  text-decoration: none;
+  color: inherit;
+}

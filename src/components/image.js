@@ -5,6 +5,7 @@ import styled from "styled-components"
 
 const StyledImg = styled(Img)`
   border-radius: 50%;
+  border: 3px double red;
 `
 /*
  * This component is built using `gatsby-image` to automatically serve optimized

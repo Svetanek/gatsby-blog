@@ -6,20 +6,20 @@ description: "landing pages with pure CSS, Flexbox and Grid"
 
 The first project uses pure CSS with animations, 2nd - Flexbox and 3rd - Grid.
 
-<img src="https://github.com/Svetanek/gatsby-blog/raw/master/src/images/travel-with-me.png" height="315" alt="screenshot travel website1"/>
+<img src="https://github.com/Svetanek/gatsby-blog/raw/master/src/images/travel-with-me.png" alt="screenshot travel website1" class="project-img"/>
 
-[Github link](https://github.com/Svetanek/TravelWithMe)
+<a href="https://github.com/Svetanek/TravelWithMe" class="project-link">Gihub Link</a>
 
-**[See Live](https://svetanek.github.io/TravelWithMe/)**
+<a href="https://svetanek.github.io/TravelWithMe/" class="project-link">See Live</a>
 
-<img src="https://github.com/Svetanek/gatsby-blog/raw/master/src/images/travel-with-me2.png" height="315" alt="screenshot travel website2"/>
+<img src="https://github.com/Svetanek/gatsby-blog/raw/master/src/images/travel-with-me2.png" alt="screenshot travel website2" class="project-img"/>
 
-[Github link](https://github.com/Svetanek/TravelWithMe2)
+<a href="https://github.com/Svetanek/TravelWithMe2" class="project-link">Gihub Link</a>
 
-**[See Live](https://svetanek.github.io/TravelWithMe2/)**
+<a href="https://svetanek.github.io/TravelWithMe2/" class="project-link">See Live</a>
 
-<img src="https://github.com/Svetanek/gatsby-blog/raw/master/src/images/restate-page.png" height="315" alt="screenshot real estate website"/>
+<img src="https://github.com/Svetanek/gatsby-blog/raw/master/src/images/restate-page.png" alt="screenshot real estate website" class="project-img"/>
 
-[Github link](https://github.com/Svetanek/REstatePage)
+<a href="https://github.com/Svetanek/REstatePage" class="project-link">Gihub Link</a>
 
-**[See Live](https://svetanek.github.io/REstatePage/)**
+<a href="https://svetanek.github.io/REstatePage/" class="project-link">See Live</a>

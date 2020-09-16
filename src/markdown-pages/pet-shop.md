@@ -6,4 +6,4 @@ description: "pet adoption website with blockchain"
 
 Solidity based app for pet adoption.
 
-[Github link](https://github.com/Svetanek/pet-shop)
+<a href="https://github.com/Svetanek/pet-shop" class="project-link">Gihub Link</a>

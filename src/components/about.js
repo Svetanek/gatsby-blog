@@ -8,7 +8,7 @@ const About = () => (
     <div id="profile-image">
       <ProfileImage />
     </div>
-    <div id="profile-text">text about me</div>
+    <p id="profile-text">text about me</p>
   </div>
 )
 export default About

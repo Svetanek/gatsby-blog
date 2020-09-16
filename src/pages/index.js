@@ -17,9 +17,10 @@ const BlogTitle = styled.h3`
 
 export default ({ data }) => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="S.S." />
     <div>
       <About />
+
       <h1>List of projects</h1>
       <h4>{data.allMarkdownRemark.totalCount} posts</h4>
       {data.allMarkdownRemark.edges.map(({ node }) => (
@@ -38,13 +39,8 @@ export default ({ data }) => (
     </Link>{" "}
     <br />
     <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-    {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div> */}
   </Layout>
 )
-
-// export default IndexPage
 
 export const query = graphql`
   query {
