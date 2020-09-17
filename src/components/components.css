@@ -25,19 +25,45 @@
   text-decoration: none;
   margin: 0;
 }
-#profile-container {
+.header-icon {
+  height: 3rem;
+  width: 3rem;
+  fill: #fff;
 }
 
 #profile-image {
   max-width: 180px;
   margin: 0 0 1.45rem 0;
 }
+
+#profile-text {
+  color: #e04251;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+#profile-text-large {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 2.5rem;
+  text-decoration: wavy;
+}
+
+#profile-text-link {
+  color: #e04251;
+  margin: 1rem 0 2rem 0;
+  text-decoration: underline;
+  font-size: 1.2rem;
+  font-weight: 200;
+  font-style: italic;
+}
+
 #footer {
   height: 10vh;
   background: #e04251;
   padding: 1.3rem;
   color: #fff;
-  left: 20%;
+  left: 30%;
 }
 
 a {

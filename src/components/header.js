@@ -1,7 +1,14 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import sprite from "../images/sprite.svg"
 import "./components.css"
+
+// const icon = () => (
+//   <svg>
+//     <use xlinkHref={`${IconSprite}#file-text2`}></use>
+//   </svg>
+// )
 
 const Header = ({ siteTitle }) => (
   <header id="header">
@@ -11,20 +18,20 @@ const Header = ({ siteTitle }) => (
       </Link>
     </h1>
     <nav id="header-nav">
-      <Link to="/resume" target="_blank" class="header-nav-link">
+      <Link to="/about-page" target="_blank" class="header-nav-link">
         <div>Resume</div>
       </Link>
-      <Link
-        to="https://www.linkedin.com/in/svetlanashinkarnyl/"
+      <a
+        href="https://www.linkedin.com/in/svetlanashinkarnyl/"
         target="_blank"
-        class="header-nav-link"
+        className="header-nav-link"
       >
         <div>Linkedin</div>
-      </Link>
+      </a>
       <Link
         to="https://github.com/Svetanek"
         target="_blank"
-        class="header-nav-link"
+        className="header-nav-link"
       >
         <div>Github</div>
       </Link>

@@ -86,3 +86,22 @@ SEO.propTypes = {
 }
 
 export default SEO
+
+// const Layout = ({ children }) => {
+//   const { title, description } = useMetadata()
+//   return (
+//     <>
+//       <Helmet>
+//         <html lang="en" />
+//         <title>{title}</title>
+//         <meta name="description" content={description} />
+//         <meta property="og:url" content="https://a-mkemp.com" />
+//         <meta property="og:image" content={ogImage} />
+//       </Helmet>
+//       <Navbar />
+//       <main>{children}</main>
+//     </>
+//   )
+// }
+
+// export default Layout

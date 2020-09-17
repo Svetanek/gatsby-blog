@@ -15,15 +15,15 @@ It is a full stack app (MERN stack) with Firebase database.
 
 Technologies used:
 
-|                                                |                               |
-| ---------------------------------------------- | ----------------------------- |
-| React                                          | Redux                         |
-| React Router                                   | Redux Saga                    |
-| React Hooks                                    | Asynchronous Redux            |
-| React Suspense + React Lazy                    | Context API                   |
-| React Performance                              | Persistance + Session Storage |
-| Firebase                                       | State Normalization           |
-| Stripe API                                     | Styled Components             |
-| GraphQL                                        | Responsive Design             |
-| Apollo                                         | PWA                           |
-| Testing with Jest, Enzyme and Snapshot testing |
+|                                                |                      |
+| ---------------------------------------------- | -------------------- |
+| React                                          | Redux                |
+| React Router                                   | Redux Saga, reselect |
+| React Hooks                                    | Asynchronous Redux   |
+| React Suspense + React Lazy                    | State Normalization  |
+| Context API                                    | Express              |
+| Persistance + Session Storage                  | Firebase             |
+| Stripe API                                     | Styled Components    |
+| GraphQL                                        | Responsive Design    |
+| Apollo                                         | PWA                  |
+| Testing with Jest, Enzyme and Snapshot testing | Heroku               |

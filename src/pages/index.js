@@ -34,9 +34,6 @@ export default ({ data }) => (
         </div>
       ))}
     </div>
-    <Link to="/resume/">
-      <button>RESUME</button>
-    </Link>{" "}
     <br />
     <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   </Layout>
