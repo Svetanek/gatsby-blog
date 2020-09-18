@@ -3,12 +3,6 @@ import PropTypes from "prop-types"
 import React from "react"
 import "./components.css"
 
-// const icon = () => (
-//   <svg xmlns="http://www.w3.org/2000/svg">
-//     <use xlinkHref={`${sprite}#file-text2`}></use>
-//   </svg>
-// )
-
 const Header = ({ siteTitle }) => (
   <header id="header">
     <h1 id="header-title">
