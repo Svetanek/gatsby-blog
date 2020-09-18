@@ -11,7 +11,7 @@ const About = () => (
     </div>
     <section id="profile-text">
       <div>
-        <span id="profile-text-large">A full stack software engineer</span> with
+        <span id="profile-text-large">A Full Stack Software Engineer</span> with
         a background of insurance, finance and math.
       </div>
       <div id="profile-text-link">

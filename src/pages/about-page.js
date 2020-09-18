@@ -9,7 +9,7 @@ const AboutPage = () => (
     <SEO title="About Page" />
     <h1>About Me</h1>
     <p>
-      I'm a software engineer with a background in insurance, finance and math.
+      I'm a Software Engineer with a background in nsurance, finance and math.
       At one point of my life I wanted to pursue an actuarial path and passed
       first 2 exams, Probability and Financial Mathematics. And while working as
       a financial advisor required to be in trend{" "}
