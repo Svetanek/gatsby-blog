@@ -595,18 +595,31 @@ pre tt:after {
     font-size: 100%;
   }
 }
+.project-img-container {
+  transition: all 0.3s;
+}
 .project-img {
-  /* border: 10px solid grey;
-  border-radius: 3%; */
-  height: 300px;
+  height: 16rem;
+  box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.3);
+}
+
+.project-img:hover {
+  transform: scale(1.2);
+  box-shadow: 0 2rem 2.5rem rgba(0, 0, 0, 0.6);
+}
+
+@media only screen and (max-width: 600px) {
+  .project-img:hover {
+    transform: none;
+    box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.6);
+  }
 }
 
 .project-link {
   text-decoration: none;
   font-size: 1.2 rem;
-  text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.3);
   color: #db452b;
-  margin: 20px;
+  margin: 1.5rem;
 }
 #main-container {
   margin: 0 auto;

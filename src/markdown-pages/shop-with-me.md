@@ -7,7 +7,7 @@ description: "e-commerce website"
 This is an e-commerce application similar to Shopify created with create-react-app.
 It is a full stack app (MERN stack) with Firebase database.
 
-Technologies used:
+##Technologies:
 
 |                                                |                      |
 | ---------------------------------------------- | -------------------- |
