@@ -654,7 +654,7 @@ pre tt:after {
 }
 #ornament {
   height: 5rem;
-  background-image: url(../../public/static/ornament3.jpg);
+  background-image: url(../images/ornament3.jpg);
   background-size: 7%;
   background-repeat: repeat-x;
 }
