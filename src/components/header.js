@@ -1,12 +1,11 @@
-import { Link } from "gatsby"
+import { Link, withPrefix } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import sprite from "../images/sprite.svg"
 import "./components.css"
 
 // const icon = () => (
-//   <svg>
-//     <use xlinkHref={`${IconSprite}#file-text2`}></use>
+//   <svg xmlns="http://www.w3.org/2000/svg">
+//     <use xlinkHref={`${sprite}#file-text2`}></use>
 //   </svg>
 // )
 
@@ -18,23 +17,38 @@ const Header = ({ siteTitle }) => (
       </Link>
     </h1>
     <nav id="header-nav">
-      <Link to="/about-page" target="_blank" class="header-nav-link">
-        <div>Resume</div>
-      </Link>
+      <a
+        href="https://drive.google.com/file/d/1009gcQAPJSQRS2L1YYt6TiaIZJdOW52P/view?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="header-nav-link"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" className="icon">
+          <use
+            xlinkHref={withPrefix("static/sprite.svg#icon-file-text2")}
+          ></use>
+        </svg>
+      </a>
       <a
         href="https://www.linkedin.com/in/svetlanashinkarnyl/"
         target="_blank"
+        rel="noopener noreferrer"
         className="header-nav-link"
       >
-        <div>Linkedin</div>
+        <svg xmlns="http://www.w3.org/2000/svg" className="icon">
+          <use xlinkHref={withPrefix("static/sprite.svg#icon-linkedin")}></use>
+        </svg>
       </a>
-      <Link
-        to="https://github.com/Svetanek"
+      <a
+        href="https://github.com/Svetanek"
         target="_blank"
+        rel="noopener noreferrer"
         className="header-nav-link"
       >
-        <div>Github</div>
-      </Link>
+        <svg xmlns="http://www.w3.org/2000/svg" className="icon">
+          <use xlinkHref={withPrefix("static/sprite.svg#icon-github")}></use>
+        </svg>
+      </a>
     </nav>
   </header>
 )

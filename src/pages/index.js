@@ -3,7 +3,6 @@ import { graphql, Link } from "gatsby"
 import styled from "styled-components"
 
 import Layout from "../components/layout"
-// import ProfileImage from "../components/image"
 import About from "../components/about"
 import SEO from "../components/seo"
 
@@ -11,7 +10,7 @@ const BlogLink = styled(Link)`
   text-decoration: none;
 `
 const BlogTitle = styled.h3`
-  margin-bottom: 20px;
+  margin: 1.6rem 0 1.6rem 0;
   color: #e04251;
 `
 
@@ -20,9 +19,9 @@ export default ({ data }) => (
     <SEO title="S.S." />
     <div>
       <About />
-
-      <h1>List of projects</h1>
-      <h4>{data.allMarkdownRemark.totalCount} posts</h4>
+      <div id="ornament"></div>
+      <h2>List of projects</h2>
+      <h4>{data.allMarkdownRemark.totalCount} projects</h4>
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <div key={node.id}>
           <BlogLink to={node.fields.slug}>

@@ -20,9 +20,9 @@ const AboutPage = () => (
       Fullstack Academy for their Immersive Software development program, which
       utilized TDD approach for single and pair programming workshops plus tests
       (though you cannot see these repos on github as their status is set to
-      private), 1 required single project - CRUD app and one more on student's
-      choice, 1 required group project - e-commerce app and one more on group's
-      choice.
+      private). The curriculum had a required single project - CRUD app and one
+      more on student's choice, one required group project - e-commerce app and
+      one more on group's choice.
     </p>
     <p>
       I am excited to continue this journey as also looking for opportunities in
@@ -44,7 +44,7 @@ const AboutPage = () => (
       Solidity, Truffle, web3, ArcGIS, NYC OpenData
     </p>
     <Link to="/">
-      <button>Back to the homepage</button>
+      <button className="btn">Back to the homepage</button>
     </Link>
   </Layout>
 )

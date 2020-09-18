@@ -9,15 +9,17 @@ const About = () => (
     <div id="profile-image">
       <ProfileImage />
     </div>
-    <div id="profile-text">
-      <span id="profile-text-large">A full stack software engineer</span> with a
-      background of insurance, finance and a math.
-    </div>
-    <div id="profile-text-link">
-      <Link to="/about-page">
-        Read More<span>&rarr;</span>
-      </Link>
-    </div>
+    <section id="profile-text">
+      <div>
+        <span id="profile-text-large">A full stack software engineer</span> with
+        a background of insurance, finance and a math.
+      </div>
+      <div id="profile-text-link">
+        <Link to="/about-page">
+          Read More<span>&rarr;</span>
+        </Link>
+      </div>
+    </section>
   </div>
 )
 export default About
