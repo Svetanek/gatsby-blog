@@ -605,7 +605,7 @@ pre tt:after {
   text-decoration: none;
   font-size: 1.2 rem;
   text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.3);
-  color: red;
+  color: #db452b;
   margin: 20px;
 }
 #main-container {
@@ -617,7 +617,7 @@ pre tt:after {
 .btn,
 .btn:link,
 .btn:visited {
-  background-color: #e04251;
+  background-color: #db452b;
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;

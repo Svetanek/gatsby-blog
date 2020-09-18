@@ -11,7 +11,7 @@ const BlogLink = styled(Link)`
 `
 const BlogTitle = styled.h3`
   margin: 1.6rem 0 1.6rem 0;
-  color: #e04251;
+  color: #db452b;
 `
 
 export default ({ data }) => (
