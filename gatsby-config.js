@@ -19,11 +19,6 @@ module.exports = {
         name: `markdowns`,
         path: `${__dirname}/src/markdown-pages`,
       },
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `svg`,
-        path: `${__dirname}/public/static`,
-      },
     },
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,

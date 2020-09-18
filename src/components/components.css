@@ -8,8 +8,7 @@
   height: 15vh;
 }
 .icon {
-  height: 2rem;
-  width: 2rem;
+  width: 5rem;
   fill: #fff;
 }
 
@@ -18,7 +17,7 @@
   color: #ffff;
 }
 .header-nav-link {
-  padding: 0 2rem;
+  padding: 0 3rem;
   color: #ffff;
 }
 
@@ -32,8 +31,7 @@
   margin: 0;
 }
 .header-icon {
-  height: 3rem;
-  width: 3rem;
+  font-size: 2rem;
   fill: #fff;
 }
 

@@ -1,6 +1,9 @@
-import { Link, withPrefix } from "gatsby"
+import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faFileAlt } from "@fortawesome/free-solid-svg-icons"
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import "./components.css"
 
 const Header = ({ siteTitle }) => (
@@ -17,11 +20,7 @@ const Header = ({ siteTitle }) => (
         rel="noopener noreferrer"
         className="header-nav-link"
       >
-        <svg xmlns="http://www.w3.org/2000/svg" className="icon">
-          <use
-            xlinkHref={withPrefix("static/sprite.svg#icon-file-text2")}
-          ></use>
-        </svg>
+        <FontAwesomeIcon className="header-icon" icon={faFileAlt} />
       </a>
       <a
         href="https://www.linkedin.com/in/svetlanashinkarnyl/"
@@ -29,9 +28,7 @@ const Header = ({ siteTitle }) => (
         rel="noopener noreferrer"
         className="header-nav-link"
       >
-        <svg xmlns="http://www.w3.org/2000/svg" className="icon">
-          <use xlinkHref={withPrefix("static/sprite.svg#icon-linkedin")}></use>
-        </svg>
+        <FontAwesomeIcon className="header-icon" icon={faGithub} />
       </a>
       <a
         href="https://github.com/Svetanek"
@@ -39,9 +36,7 @@ const Header = ({ siteTitle }) => (
         rel="noopener noreferrer"
         className="header-nav-link"
       >
-        <svg xmlns="http://www.w3.org/2000/svg" className="icon">
-          <use xlinkHref={withPrefix("static/sprite.svg#icon-github")}></use>
-        </svg>
+        <FontAwesomeIcon className="header-icon" icon={faLinkedin} />
       </a>
     </nav>
   </header>
@@ -56,3 +51,9 @@ Header.defaultProps = {
 }
 
 export default Header
+
+/* <svg xmlns="http://www.w3.org/2000/svg" className="icon">
+<use
+  xlinkHref={withPrefix("static/sprite.svg#icon-file-text2")}
+></use>
+</svg> */
