@@ -12,7 +12,7 @@ const About = () => (
     <section id="profile-text">
       <div>
         <span id="profile-text-large">A full stack software engineer</span> with
-        a background of insurance, finance and a math.
+        a background of insurance, finance and math.
       </div>
       <div id="profile-text-link">
         <Link to="/about-page">
