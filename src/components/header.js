@@ -28,7 +28,7 @@ const Header = ({ siteTitle }) => (
         rel="noopener noreferrer"
         className="header-nav-link"
       >
-        <FontAwesomeIcon className="header-icon" icon={faGithub} />
+        <FontAwesomeIcon className="header-icon" icon={faLinkedin} />
       </a>
       <a
         href="https://github.com/Svetanek"
@@ -36,7 +36,7 @@ const Header = ({ siteTitle }) => (
         rel="noopener noreferrer"
         className="header-nav-link"
       >
-        <FontAwesomeIcon className="header-icon" icon={faLinkedin} />
+        <FontAwesomeIcon className="header-icon" icon={faGithub} />
       </a>
     </nav>
   </header>

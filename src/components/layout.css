@@ -590,16 +590,12 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
-@media only screen and (max-width: 600px) {
-  html {
-    font-size: 100%;
-  }
-}
+
 .project-img-container {
   transition: all 0.3s;
 }
 .project-img {
-  height: 16rem;
+  width: 23.69rem;
   box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.3);
 }
 
@@ -607,14 +603,24 @@ pre tt:after {
   transform: scale(1.2);
   box-shadow: 0 2rem 2.5rem rgba(0, 0, 0, 0.6);
 }
+.video {
+  width: 30.5rem;
+  height: 17.5rem;
+}
 
 @media only screen and (max-width: 600px) {
+  html {
+    font-size: 100%;
+  }
   .project-img:hover {
     transform: none;
     box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.6);
   }
+  .video {
+    width: 22.34rem;
+    height: 12.8rem;
+  }
 }
-
 .project-link {
   text-decoration: none;
   font-size: 1.2 rem;
