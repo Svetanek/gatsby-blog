@@ -9,7 +9,7 @@ const AboutPage = () => (
     <SEO title="About Page" />
     <h1>About Me</h1>
     <p>
-      I'm a Software Engineer with a background in nsurance, finance and math.
+      I'm a Software Engineer with a background in Insurance, Finance and Math.
       At one point of my life I wanted to pursue an actuarial path and passed
       first 2 exams, Probability and Financial Mathematics. And while working as
       a financial advisor required to be in trend{" "}
@@ -48,7 +48,7 @@ const AboutPage = () => (
     </p>
     <i>
       *** Also I want to add couple words why I've chosen these colors you see
-      on the site. Red and white are national flag (historical but non-oficial)
+      on the site. Red and white are national flag (historical but non-official)
       colors of my home country, Belarus, which is going through difficult
       times. So I want to express my support to people, who are peacefully
       fighting against violence and injustice. If you want to read more,
