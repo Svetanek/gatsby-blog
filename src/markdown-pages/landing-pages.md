@@ -12,7 +12,7 @@ The first project uses pure CSS with animations, 2nd - Flexbox and 3rd - Grid.
 - Advanced CSS animations with @keyframes, animation and transition;
 - Advanced CSS selectors, pseudo-classes and pseudo-elements;
 - SVG images in HTML and CSS: generated SVG sprites;
-- Videos in HTML and CSS: build a background video effect;
+- Videos in HTML and CSS: background video effect;
 - Responsive design: fluid grids, layout types, flexible images, media queries;
 - Responsive images in HTML and CSS for faster pageloads: resolution switching, density switching, art direction;
 

@@ -1,5 +1,5 @@
 #header {
-  background: #db452b;
+  background: var(--color-primary);
   margin-bottom: 1.45rem;
   display: flex;
   justify-content: space-around;
@@ -35,13 +35,13 @@
 }
 
 #header-title-link {
-  color: white;
+  color: var(--color-secondary);
   text-decoration: none;
   margin: 0;
 }
 .header-icon {
   font-size: 2rem;
-  fill: #fff;
+  fill: var(--color-secondary);
 }
 
 #profile-container {
@@ -59,7 +59,7 @@
 }
 
 #profile-text {
-  color: #db452b;
+  color: var(--color-primary);
   font-size: 1.3rem;
   line-height: 2rem;
   align-self: flex-end;
@@ -74,7 +74,7 @@
 }
 
 #profile-text-link {
-  color: #db452b;
+  color: var(--color-primary);
   margin: 1rem 0 2rem 0;
   text-decoration: underline;
   font-size: 1.2rem;
@@ -94,7 +94,7 @@
     font-weight: 600;
   }
   #profile-text-link {
-    color: #db452b;
+    color: var(--color-primary);
     margin: 0.6rem 0;
     font-size: 1.2rem;
     font-weight: 200;
@@ -104,9 +104,9 @@
 
 #footer {
   height: 10vh;
-  background: #db452b;
+  background: var(--color-primary);
   padding: 1.3rem;
-  color: #fff;
+  color: var(--color-secondary);
   left: 30%;
 }
 

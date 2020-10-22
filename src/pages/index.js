@@ -16,7 +16,7 @@ const BlogTitle = styled.h3`
 
 export default ({ data }) => (
   <Layout>
-    <SEO title="S.S." />
+    <SEO title="Svetlana Shinkar blog-profile" />
     <div>
       <About />
       <div id="ornament"></div>
