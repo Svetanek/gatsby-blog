@@ -7,6 +7,9 @@ import SEO from "../components/seo"
 const AboutPage = () => (
   <Layout>
     <SEO title="About Page" />
+
+    <img src="https://github.com/Svetanek/gatsby-blog/raw/master/src/images/photo_japan.png" alt ="me in Japan"/>
+
     <h1>About Me</h1>
     <p>
       I'm a Software Engineer with a background in Insurance, Finance and Math.
@@ -48,12 +51,13 @@ const AboutPage = () => (
     </p>
     <i>
       *** Also I want to add couple words why I've chosen these colors you see
-      on the site. Red and white are national flag (historical but non-official)
-      colors of my home country, Belarus, which is going through difficult
-      times. So I want to express my support to people, who are peacefully
+      on the site. Red and white are colors of flags of 2 countries I love.
+      One is my home country, Belarus, which is going through difficult
+      times now. So I want to express my support to people, who are peacefully
       fighting against violence and injustice. If you want to read more,
       <a href="https://www.bbc.com/news/world-europe-53799065"> HERE </a>is a
       good article.
+      And the second country is Japan, where I spent some time of my life and was impressed with the country and its people.
     </i>
     <br />
     <br />
