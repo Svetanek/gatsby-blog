@@ -8,7 +8,7 @@ const AboutPage = () => (
   <Layout>
     <SEO title="About Page" />
 
-    <img src="https://github.com/Svetanek/gatsby-blog/raw/master/src/images/photo_japan.png" alt ="me in Japan"/>
+    <img src="https://github.com/Svetanek/gatsby-blog/raw/master/src/images/photo_japan.jpg" alt ="me in Japan"/>
 
     <h1>About Me</h1>
     <p>
