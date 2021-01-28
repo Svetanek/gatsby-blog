@@ -1,10 +1,10 @@
 ---
-title: "Landing pages"
+title: "Landing pages for Travel and Real Estate websites"
 date: "2020-07-01"
 description: "landing pages with pure CSS, Flexbox and Grid"
 ---
 
-The first project uses pure CSS with animations, 2nd - Flexbox and 3rd - Grid.
+The first project uses pure CSS (SCSS) with animations, 2nd - Flexbox and 3rd - Grid.
 
 ## Technologies:
 
