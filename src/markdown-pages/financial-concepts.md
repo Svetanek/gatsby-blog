@@ -16,7 +16,7 @@ This calculator is devided in 2 parts.
 The app has been created with create-react-app.
 React, React Hooks, Styled Components, Jest, Enzyme, Responsive Design
 
-<img src="https://github.com/Svetanek/gatsby-blog/raw/master/src/images/calculatorScreen.png" alt="screenshot e-fin_calculator" class="project-img" />
+<img src="https://github.com/Svetanek/gatsby-blog/raw/master/src/images/screenshotCalc.png" alt="screenshot e-fin_calculator" class="project-img" />
 
 <a href="https://github.com/Svetanek/FinPlanning-concepts" class="project-link">Gihub Link</a>
 

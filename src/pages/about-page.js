@@ -38,15 +38,12 @@ const AboutPage = () => (
     <p>
       <span>Proficient: </span>Node.js, Javascript (ES6), React (inc. Hooks, lazy, suspense),
       Redux (inc. Thunk, Saga, reselect), Express, PostgresSQL, Sequelize,
-      HTML5, CSS3, SCSS, Styled Components, TDD(Mocha, Chai, Jasmine, Jest, Enzyme), Git
-    </p>
-    <p>
-      <span>Knowledgeable: </span> Firebase, Heroku,
-      Passport(OAuth), Webpack, Babel, React-Map-GL/Mapbox-GL, Material UI
+      HTML5, CSS3, SCSS, Styled Components, TDD(Mocha, Chai, Jasmine, Jest, Enzyme), Heroku, Git
     </p>
     <p>
       <span>Some experience: </span>
       D3/React, Context API, GraphQL, Apollo GraphQL, Gatsby, SQL, Stripe, Travis CI,
+      Firebase, Passport(OAuth), Webpack, Babel, React-Map-GL/Mapbox-GL, Material UI
       Solidity, Truffle, web3, ArcGIS, NYC OpenData
     </p>
     <i>
