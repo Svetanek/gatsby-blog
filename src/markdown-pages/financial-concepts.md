@@ -12,11 +12,12 @@ This calculator is devided in 2 parts.
 
 2nd part is to compare that future balance with the projected cash value at the year of potential payoff using the approach of maximizing CV with funding policy up to MEC limit. In case the LI cash value significanly higher than the target future balance, there are 2 options to consider: to pay off the whole balance (with the tax consideration). The additional benefit here is LI coverage during all those years. And the second option is to continue paying mortgage payments and having tax advantage for interest but the source of payments to be switched to cash value. The separate LI illustration has to be run for that option.
 
-##Technologies:
-The app has been created with create-react-app.
-React, React Hooks, Styled Components, Jest, Enzyme, Responsive Design
+The app has been created with create-react-app. No external libraries were used for forms and error handling.
 
-<img src="https://github.com/Svetanek/gatsby-blog/raw/master/src/images/screenshotCalc.png" alt="screenshot e-fin_calculator" class="project-img" />
+##Technologies:
+React, React Hooks, Styled Components, CSS/SCSS, Jest, Enzyme, Responsive Design.
+
+<img src="https://github.com/Svetanek/gatsby-blog/raw/master/src/images/screenCalc.png" alt="screenshot e-fin_calculator" class="project-img" />
 
 <a href="https://github.com/Svetanek/FinPlanning-concepts" class="project-link">Gihub Link</a>
 
