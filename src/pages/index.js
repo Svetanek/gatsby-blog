@@ -26,7 +26,7 @@ export default ({ data }) => (
         <div key={node.id}>
           <BlogLink to={node.fields.slug}>
             <BlogTitle>
-              {node.frontmatter.title} - {node.frontmatter.date}
+              {node.frontmatter.title}
             </BlogTitle>
           </BlogLink>
           <p>{node.excerpt}</p>

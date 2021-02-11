@@ -54,7 +54,7 @@ const AboutPage = () => (
       fighting against violence and injustice. If you want to read more,
       <a href="https://www.bbc.com/news/world-europe-53799065"> HERE </a>is a
       good article.
-      And the second country is Japan, where I spent some time of my life and was impressed with the country and its people.
+      And the second country is Japan 🇯🇵, where I spent some time of my life and was impressed with the country and its people.
     </i>
     <br />
     <br />

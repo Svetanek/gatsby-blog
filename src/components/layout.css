@@ -666,6 +666,11 @@ pre tt:after {
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
 }
+.btn:active,
+.btn:focus {
+  outline: 0;
+  border-image: none;
+}
 #ornament {
   height: 5rem;
   background-image: url(../images/ornament3.jpg);
