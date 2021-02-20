@@ -17,7 +17,7 @@ The app has been created with create-react-app. No external libraries were used 
 ##Technologies:
 React, React Hooks, Styled Components, CSS/SCSS, Jest, Enzyme, Responsive Design.
 
-<img src="https://github.com/Svetanek/gatsby-blog/raw/master/src/images/loan-vs-wholelife.png" alt="screenshot calculator" class="project-img" />
+<img src="https://github.com/Svetanek/gatsby-blog/raw/master/src/images/loan-vs-wholelife_screen.png" alt="screenshot calculator" class="project-img" />
 
 <a href="https://github.com/Svetanek/FinPlanning-concepts" class="project-link">Gihub Link</a>
 
