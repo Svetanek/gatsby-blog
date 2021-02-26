@@ -15,7 +15,7 @@ This calculator is devided in 2 parts.
 The app has been created with create-react-app. No external libraries were used for forms and error handling.
 
 ##Technologies:
-React, React Hooks, Styled Components, CSS/SCSS, Jest, Enzyme, Responsive Design.
+React, React Hooks, Styled Components, CSS/SCSS, Jest, Enzyme, Responsive Design w. Neumorphism.
 
 <img src="https://github.com/Svetanek/gatsby-blog/raw/master/src/images/loan-vs-wholelife_screen.png" alt="screenshot calculator" class="project-img" />
 
