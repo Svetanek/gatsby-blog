@@ -13,13 +13,12 @@ It is a full stack app (MERN stack) with Firebase database.
 | ---------------------------------------------- | -------------------- |
 | React                                          | Redux                |
 | React Router                                   | Redux Saga, reselect |
-| React Hooks                                    | Asynchronous Redux   |
-| React Suspense + React Lazy                    | State Normalization  |
-| Context API                                    | Express              |
-| Persistance + Session Storage                  | Firebase             |
-| Stripe API                                     | Styled Components    |
-| GraphQL                                        | Responsive Design    |
-| Apollo                                         | PWA                  |
+| React Hooks                                    | Express              |
+| React Suspense + React Lazy                    | Firebase             |
+| Error Boundary                                 | GraphQL              |
+| Persistance + Session Storage                  | Apollo               |
+| PWA                                            | Stripe API           |
+| Styled Components                              | Responsive Design    |
 | Testing with Jest, Enzyme and Snapshot testing | Heroku               |
 
 <img src="https://github.com/Svetanek/gatsby-blog/raw/master/src/images/shop-with-me.png" alt="screenshot e-commerce website" class="project-img" />
