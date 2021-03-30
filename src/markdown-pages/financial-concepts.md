@@ -1,6 +1,6 @@
 ---
 title: "Financial planning concept calculator: Loan/Mortgage overpayment vs Whole Life Insurance"
-date: "2020-12-18"
+date: "2021-01-18"
 description: "calculator to compare loan or mortgage overpayment option vs investing in WL"
 ---
 
