@@ -15,7 +15,7 @@ const Header = ({ siteTitle }) => (
     </h1>
     <nav id="header-nav">
       <a
-        href="hhttps://drive.google.com/file/d/1Iw_IWbVgY5FPB9MosGBlfBmZNGCf4tni/view?usp=sharing"
+        href="https://drive.google.com/file/d/1Iw_IWbVgY5FPB9MosGBlfBmZNGCf4tni/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
         className="header-nav-link"
