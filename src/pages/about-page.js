@@ -1,13 +1,13 @@
 import React from "react"
 import { Link } from "gatsby"
 
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const AboutPage = () => (
   <Layout>
     <SEO title="About Page" />
-
     <img src="https://github.com/Svetanek/gatsby-blog/raw/master/src/images/photo_japan.jpg" alt ="me in Japan"/>
 
     <h1>About Me</h1>
@@ -37,7 +37,7 @@ const AboutPage = () => (
     <h2>Tech stack</h2>
     <p>
       <span>Proficient: </span>Node.js, Javascript (ES6), React (inc. Hooks, lazy, suspense),
-      Redux (inc. Thunk, Saga, reselect), Express, PostgresSQL, Sequelize,
+      Redux (inc. Thunk, Saga, reselect), Express, PostgresSQL, Sequelize, MongoDB, Mongoose,
       HTML5, CSS3, SCSS, Styled Components, TDD(Mocha, Chai, Jasmine, Jest, Enzyme), Heroku, Git
     </p>
     <p>

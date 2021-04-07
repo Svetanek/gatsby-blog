@@ -12,6 +12,14 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       value: slug,
     })
   }
+
+  // if (node.internal.type === "image/png" || "image/jpeg") {
+  //   createNodeField({
+  //     node,
+  //     name: `image`,
+  //     value: node.images.map(image => `./../src/images/${image.src}`)
+  //   })
+  // }
 }
 
 exports.createPages = async ({ graphql, actions }) => {
@@ -43,6 +51,8 @@ exports.createPages = async ({ graphql, actions }) => {
     })
   })
 }
+
+
 
 /**
  * Implement Gatsby's Node APIs in this file.
