@@ -37,8 +37,21 @@ const GalleryPage = () => {
   }
 `)
 
-// const last = data.source.edges.length - 1;
+const last = data.source.edges.length - 1;
+const generateNavLinks = (last) => {
+  const arr = [];
+  for (let i = 0; i <= last; i++) {
+      arr.push(<button className={`btn-link ${(index === i)? "black": ""}`} key={i} onClick={() => setIndex(i) }/>)
+  }
+  return arr;
+}
+const onClickNext = () => {
+  index === last? setIndex(0) : setIndex(index + 1)
+}
 
+const onClickPrev = () => {
+  index === 0? setIndex(last) : setIndex(index - 1)
+}
   return (
       <Layout>
         <SEO title="gallery" />
@@ -49,17 +62,16 @@ const GalleryPage = () => {
     data.source.edges.map(({node}, i) => <StyledImg  key={i} fluid={node.childImageSharp.fluid} alt={node.name} index={index}/>)
     }
     </div>
+    <div id="slider__arrows">
+      <button className="btn-large" onClick={onClickPrev} >
+        <span className="btn-arrow" id="left-arrow" ></span>
+      </button>
+      <button className="btn-large right-align" onClick={onClickNext} >
+        <span className="btn-arrow" id="right-arrow" ></span>
+      </button>
+    </div>
     <nav id="slider__links">
-      <button className="btn-link" onClick={() => setIndex(0) }/>
-      <button className="btn-link" onClick={() => setIndex(1) }/>
-      <button className="btn-link" onClick={() => setIndex(2) }/>
-      <button className="btn-link" onClick={() => setIndex(3) }/>
-      <button className="btn-link" onClick={() => setIndex(4) }/>
-      <button className="btn-link" onClick={() => setIndex(5) }/>
-      <button className="btn-link" onClick={() => setIndex(6) }/>
-      <button className="btn-link" onClick={() => setIndex(7) }/>
-      <button className="btn-link" onClick={() => setIndex(8) }/>
-      <button className="btn-link" onClick={() => setIndex(9) }/>
+      {generateNavLinks(last)}
     </nav>
     </div>
        </div>
