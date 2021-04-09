@@ -1,0 +1,113 @@
+.btn-link:active,
+.btn-link:focus,
+.btn-large:active,
+.btn-large:focus {
+  outline: 0;
+  border-image: none;
+}
+
+.slider {
+  width: 50rem;
+  overflow: hidden;
+  position: relative;
+}
+
+@supports (scroll-snap-type: x mandatory) or
+  (-webkit-scroll-snap-type: x mandatory) {
+  .slides {
+    scroll-snap-type: x mandatory;
+    -webkit-scroll-snap-type: x mandatory;
+  }
+}
+
+@supports (scroll-behavior: smooth) {
+  .slides {
+    scroll-behavior: smooth;
+  }
+}
+@supports (-webkit-overflow-scrolling: touch) {
+  .slides {
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+.slides {
+  display: flex;
+  overflow-x: auto;
+}
+
+.slides::-webkit-scrollbar {
+  display: none;
+}
+
+.slides:hover {
+  cursor: pointer;
+}
+/* .slides::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+.slides::-webkit-scrollbar-track {
+  background: transparent;
+}  */
+
+#slider__arrows {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 50%;
+  left: 0;
+  right: 0;
+}
+
+.btn-arrow {
+  width: 0.75rem;
+  height: 1.5rem;
+  background-color: var(--color-primary);
+}
+#left-arrow {
+  clip-path: polygon(0 50%, 100% 100%, 100% 0);
+  justify-self: start;
+}
+#right-arrow {
+  clip-path: polygon(0 0, 100% 50%, 0 100%);
+  justify-self: end;
+}
+
+.btn-large {
+  width: 1.8rem;
+  height: 1.8rem;
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 50%;
+  display: flex;
+
+  align-items: center;
+  border: none;
+}
+.right-align {
+  justify-content: flex-end;
+}
+#slider__links {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-link {
+  width: 0.8rem;
+  height: 0.8rem;
+  background: white;
+  border-radius: 50%;
+  margin: 0.3rem;
+  font-size: 0.3rem;
+  color: transparent;
+}
+.black {
+  background-color: black;
+}
+
+#slider__links:focus {
+  background: #000;
+}

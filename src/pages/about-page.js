@@ -1,14 +1,16 @@
 import React from "react"
 import { Link } from "gatsby"
-
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Carousel from "../components/carousel"
 
 const AboutPage = () => (
   <Layout>
     <SEO title="About Page" />
-    <img src="https://github.com/Svetanek/gatsby-blog/raw/master/src/images/photo_japan.jpg" alt ="me in Japan"/>
+    <div id="carousel-container" >
+    <Carousel/>
+    </div>
+
 
     <h1>About Me</h1>
     <p>
