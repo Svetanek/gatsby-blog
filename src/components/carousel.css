@@ -7,14 +7,14 @@
 }
 
 .slider {
-  width: 50rem;
+  width: var(--carousel-width-primary);
   overflow: hidden;
   position: relative;
 }
 
 @media only screen and (max-width: 600px) {
   .slider {
-    width: 20rem;
+    width: var(--carousel-width-secondary);
   }
 }
 

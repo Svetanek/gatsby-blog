@@ -1,6 +1,8 @@
 * {
   --color-primary: #db452b;
   --color-secondary: #fff;
+  --carousel-width-primary: 50rem;
+  --carousel-width-secondary: 20rem;
 }
 html {
   -ms-text-size-adjust: 100%;

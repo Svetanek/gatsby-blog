@@ -4,7 +4,8 @@ import Img from "gatsby-image"
 import styled from "styled-components"
 import "./carousel.css"
 
-const sliderWidth = (window.screen.width < 600)? 20: 50;
+const isServer = typeof window === "undefined";
+const sliderWidth = isServer? 50: (window.innerWidth < 600)? 20: 50;
 
 
 const StyledImg = styled(Img)`
@@ -22,7 +23,7 @@ const StyledImg = styled(Img)`
 const Carousel = () => {
   const [index, setIndex] = useState(0);
   useEffect(() => console.log("INDEX", index), [index])
-  console.log("SLWIDTH", sliderWidth)
+  console.log("Width", sliderWidth)
 
   const data = useStaticQuery(graphql`
   query imagesQuery {

@@ -7,7 +7,7 @@ import Carousel from "../components/carousel"
 const AboutPage = () => (
   <Layout>
     <SEO title="About Page" />
-    <div classNeme ="center-horiz" id="carousel-container" >
+    <div className ="center-horiz" id="carousel-container" >
     <Carousel/>
     </div>
 
