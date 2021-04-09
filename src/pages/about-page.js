@@ -7,12 +7,12 @@ import Carousel from "../components/carousel"
 const AboutPage = () => (
   <Layout>
     <SEO title="About Page" />
-    <div id="carousel-container" >
+    <div classNeme ="center-horiz" id="carousel-container" >
     <Carousel/>
     </div>
 
 
-    <h1>About Me</h1>
+    <h1 className="center-horiz">About Me</h1>
     <p>
       I'm a Software Engineer with a background in Insurance, Finance and Math.
       At one point of my life I wanted to pursue an actuarial path and passed
@@ -36,7 +36,7 @@ const AboutPage = () => (
       I am excited to continue this journey as also looking for opportunities in
       the tech sector and hope to be able to expand on this newfound love.
     </p>
-    <h2>Tech stack</h2>
+    <h2 className="center-horiz">Tech stack</h2>
     <p>
       <span>Proficient: </span>Node.js, Javascript (ES6), React (inc. Hooks, lazy, suspense),
       Redux (inc. Thunk, Saga, reselect), Express, PostgresSQL, Sequelize, MongoDB, Mongoose,
@@ -60,7 +60,7 @@ const AboutPage = () => (
     </i>
     <br />
     <br />
-    <Link to="/">
+    <Link className="center-horiz" to="/">
       <button className="btn">Back to the homepage</button>
     </Link>
   </Layout>

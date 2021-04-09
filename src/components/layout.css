@@ -682,9 +682,17 @@ pre tt:after {
   background-repeat: repeat-x;
 }
 #carousel-container {
+  margin-bottom: 1.5rem;
+}
+
+.center-horiz {
   display: flex;
   justify-content: center;
 }
+/* .align-right {
+  display: flex;
+  justify-content: flex-end;
+} */
 
 /*CAROUSEL/Gallery*/
 

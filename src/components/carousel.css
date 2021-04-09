@@ -12,6 +12,12 @@
   position: relative;
 }
 
+@media only screen and (max-width: 600px) {
+  .slider {
+    width: 20rem;
+  }
+}
+
 @supports (scroll-snap-type: x mandatory) or
   (-webkit-scroll-snap-type: x mandatory) {
   .slides {
