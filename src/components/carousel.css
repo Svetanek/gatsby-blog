@@ -42,9 +42,9 @@
   overflow-x: auto;
 }
 
-/* .slides::-webkit-scrollbar {
+.slides::-webkit-scrollbar {
   display: none;
-} */
+}
 
 .slides:hover {
   cursor: pointer;
