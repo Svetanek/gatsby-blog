@@ -12,7 +12,7 @@
   position: relative;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 550px) {
   .slider {
     width: var(--carousel-width-secondary);
   }
@@ -42,9 +42,9 @@
   overflow-x: auto;
 }
 
-.slides::-webkit-scrollbar {
+/* .slides::-webkit-scrollbar {
   display: none;
-}
+} */
 
 .slides:hover {
   cursor: pointer;
@@ -71,12 +71,21 @@
   height: 1.5rem;
   background-color: var(--color-primary);
 }
+
+@supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+  #left-arrow {
+    -webkit-clip-path: polygon(0 50%, 100% 100%, 100% 0);
+    clip-path: polygon(0 50%, 100% 100%, 100% 0);
+  }
+  #right-arrow {
+    -webkit-clip-path: polygon(0 0, 100% 50%, 0 100%);
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+  }
+}
 #left-arrow {
-  clip-path: polygon(0 50%, 100% 100%, 100% 0);
   justify-self: start;
 }
 #right-arrow {
-  clip-path: polygon(0 0, 100% 50%, 0 100%);
   justify-self: end;
 }
 
@@ -85,9 +94,9 @@
   height: 1.8rem;
   background-color: white;
   opacity: 0.8;
+  -moz-border-radius: 50%;
   border-radius: 50%;
   display: flex;
-
   align-items: center;
   border: none;
 }
@@ -105,7 +114,13 @@
   width: 0.8rem;
   height: 0.8rem;
   background: white;
+  -moz-border-radius: 50%;
+  box-sizing: border-box;
   border-radius: 50%;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 1px #000;
+  box-shadow: 0 0 1px #000;
+
   margin: 0.3rem;
   font-size: 0.3rem;
   color: transparent;
