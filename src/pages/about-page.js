@@ -44,8 +44,8 @@ const AboutPage = () => (
     </p>
     <p>
       <span>Some experience: </span>
-      Typescript, D3/React, Context API, GraphQL, Apollo GraphQL, Gatsby, SQL, Stripe, Travis CI,
-      Firebase, Passport(OAuth), Webpack, Babel, React-Map-GL/Mapbox-GL, Material UI
+      AWS, Typescript, D3/React, Context API, GraphQL, Apollo GraphQL, Gatsby, SQL, Stripe, Travis CI,
+      Firebase, Passport(OAuth), JSON Web Tokens, Webpack, Babel, React-Map-GL/Mapbox-GL, Material UI
       Solidity, Truffle, web3, ArcGIS, NYC OpenData
     </p>
     <i>
