@@ -40,7 +40,7 @@ const AboutPage = () => (
     <p>
       <span>Proficient: </span>Node.js, Javascript (ES6), React (inc. Hooks, lazy, suspense),
       Redux (inc. Thunk, Saga, reselect), Express, PostgresSQL, Sequelize, MongoDB, Mongoose,
-      HTML5, CSS3, SCSS, Styled Components, TDD(Mocha, Chai, Jasmine, Jest, Enzyme), Heroku, Git
+      HTML5, CSS3, SCSS, Styled Components, TDD(Mocha, Chai, Jasmine, Jest, Enzyme), Heroku, Git, AWS
     </p>
     <p>
       <span>Some experience: </span>
