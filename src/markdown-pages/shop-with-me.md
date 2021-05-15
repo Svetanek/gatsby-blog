@@ -23,6 +23,8 @@ It is a full stack app (MERN stack) with Firebase database.
 
 <img src="https://github.com/Svetanek/gatsby-blog/raw/master/src/images/shop-with-me.png" alt="screenshot e-commerce website" class="project-img" />
 
-<a href="https://github.com/Svetanek/shop-with-me" class="project-link">Gihub Link</a>
+<a href="https://github.com/Svetanek/shop-with-me" class="project-link"  target="_blank"
+        rel="noopener noreferrer">Github Link</a>
 
-<a href="https://shopwithme-live.herokuapp.com/" class="project-link">See Live</a>
+<a href="https://shopwithme-live.herokuapp.com/" class="project-link"  target="_blank"
+        rel="noopener noreferrer">See Live</a>

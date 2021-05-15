@@ -17,8 +17,9 @@ The app has been created with create-react-app. No external libraries were used 
 ##Technologies:
 React, React Hooks, Styled Components, CSS/SCSS, Jest, Enzyme, Responsive Design w. Neumorphism.
 
-<img src="https://github.com/Svetanek/gatsby-blog/raw/master/src/images/loan-vs-wholelife_screen.png" alt="screenshot calculator" class="project-img" />
+<img src="https://github.com/Svetanek/gatsby-blog/raw/master/src/images/loan-vs-wholelife_screen.png" alt="screenshot calculator"  class="project-img" />
 
-<a href="https://github.com/Svetanek/FinPlanning-concepts" class="project-link">Gihub Link</a>
+<a href="https://github.com/Svetanek/FinPlanning-concepts" class="project-link"  target="_blank" rel="noopener noreferrer">Github Link</a>
 
-<a href="https://loan-vs-wholelife.netlify.app/" class="project-link">See Live</a>
+<a href="https://loan-vs-wholelife.netlify.app/" class="project-link"  target="_blank"
+        rel="noopener noreferrer">See Live</a>

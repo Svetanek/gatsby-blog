@@ -40,7 +40,7 @@ const AboutPage = () => (
     <p>
       <span>Proficient: </span>Node.js, Javascript (ES6), React (inc. Hooks, lazy, suspense),
       Redux (inc. Thunk, Saga, reselect), Express, PostgresSQL, Sequelize, MongoDB, Mongoose,
-      HTML5, CSS3, SCSS, Styled Components, TDD(Mocha, Chai, Jasmine, Jest, Enzyme), Heroku, Git, AWS
+      HTML5, CSS3, SCSS, Styled Components, TDD(Mocha, Chai, Jasmine, Jest, Enzyme), Heroku, Git
     </p>
     <p>
       <span>Some experience: </span>
@@ -48,6 +48,8 @@ const AboutPage = () => (
       Firebase, Passport(OAuth), JSON Web Tokens, Webpack, Babel, React-Map-GL/Mapbox-GL, Material UI
       Solidity, Truffle, web3, ArcGIS, NYC OpenData
     </p>
+    <p>AWS Certified Cloud Practitioner. <i><a href="https://www.credly.com/badges/850a7920-1e22-47f9-bb66-fde6c62d6741/public_url">See Badge</a></i></p>
+
     <i>
       *** Also I want to add couple words why I've chosen these colors you see
       on the site. Red and white are colors of flags of 2 countries I love.

@@ -14,6 +14,7 @@ Technologies used: Solidity, web3, Truffle, Ganache, Metamask, Mocha, Chai
 
 </div>
 
-<a href="https://github.com/Svetanek/pet-shop" class="project-link">Gihub Link</a>
+<a href="https://github.com/Svetanek/pet-shop" class="project-link"  target="_blank"
+        rel="noopener noreferrer">Github Link</a>
 
-\*During the learning stage I did several workshops with money transfers, incl. the inheritance transfer contract (<a href="https://github.com/Svetanek/Solidity-excercise-contracts/blob/master/Exercise%20Files/CH03/03_04/end/contract.sol"><i>check here </i></a>)
+\*During the learning stage I did several workshops with money transfers, incl. the inheritance transfer contract (<a href="https://github.com/Svetanek/Solidity-excercise-contracts/blob/master/Exercise%20Files/CH03/03_04/end/contract.sol"  target="_blank" rel="noopener noreferrer"><i>check here </i></a>)

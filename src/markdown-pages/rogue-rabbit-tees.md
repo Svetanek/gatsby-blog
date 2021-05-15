@@ -9,4 +9,4 @@ Technologies used: Express.js, React, Redux(w/Thunk), PosrgreSQL,Sequelize, Mate
 
 <img src="https://github.com/Svetanek/gatsby-blog/raw/master/src/images/rr-tees.png" alt ="screenshot rougue rabbit tees" class="project-img"/>
 
-<a href="https://github.com/rogue-rabbits/grace-shopper" class="project-link">Gihub Link</a>
+<a href="https://github.com/rogue-rabbits/grace-shopper" class="project-link"  target="_blank" rel="noopener noreferrer">Github Link</a>

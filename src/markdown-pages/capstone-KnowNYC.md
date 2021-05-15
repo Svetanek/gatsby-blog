@@ -15,4 +15,5 @@ System design and database management played an integral part in app development
 
 <iframe class="video" src="https://www.youtube.com/embed/-BfZi9GQ_qc?start=63" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<a href="https://github.com/lima-dove/KnowNYC" class="project-link">Gihub Link</a>
+<a href="https://github.com/lima-dove/KnowNYC" class="project-link"  target="_blank"
+        rel="noopener noreferrer">Github Link</a>
