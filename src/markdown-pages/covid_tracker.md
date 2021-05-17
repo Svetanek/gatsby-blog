@@ -9,6 +9,7 @@ It has been created with create-react-app and deployed with Firebase.
 
 ##Technologies:
 React, React Hooks, React-Leaflet, React-chartjs-2, Material UI, CSS.
+
 <img src="https://github.com/Svetanek/gatsby-blog/raw/master/src/images/covid-tracker_screen.png" alt="screenshot covid-19 tracker" class="project-img" />
 
 <a href="https://github.com/Svetanek/C-Tracker" class="project-link"  target="_blank"
