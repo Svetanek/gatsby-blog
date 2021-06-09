@@ -38,15 +38,19 @@ const AboutPage = () => (
     </p>
     <h2 className="center-horiz">Tech stack</h2>
     <p>
-      <span>Proficient: </span>Node.js, Javascript (ES6), React (inc. Hooks, lazy, suspense),
-      Redux (inc. Thunk, Saga, reselect), Express, PostgresSQL, Sequelize, MongoDB, Mongoose,
-      HTML5, CSS3, SCSS, Styled Components, TDD(Mocha, Chai, Jasmine, Jest, Enzyme), Heroku, Git
+      <span>Back end: </span>Node.js, Express, Rest API, PostgresSQL, Sequelize, MongoDB, Mongoose, Firebase
     </p>
     <p>
-      <span>Some experience: </span>
-      AWS, Typescript, D3/React, Context API, GraphQL, Apollo GraphQL, Gatsby, SQL, Stripe, Travis CI,
-      Firebase, Passport(OAuth), JSON Web Tokens, Webpack, Babel, React-Map-GL/Mapbox-GL, Material UI
-      Solidity, Truffle, web3, ArcGIS, NYC OpenData
+      <span>Front end: </span>
+      Javascript (ES6), Typescript, React (inc. hooks, lazy, suspense, context...), D3/React,
+      Redux (inc. Thunk, Saga, reselect), Gatsby,
+      HTML5, CSS3, SCSS, Styled Components,  Material UI
+    </p>
+
+    <p>
+      <span>Miscellaneous skills: </span>
+      AWS, GraphQL, Apollo GraphQL,  SQL, Webpack, Babel, React-Map-GL/Mapbox-GL,  Stripe,
+     Passport(OAuth), JSON Web Tokens, Twilio Sendgrid, Nodemailer, Solidity, Truffle, web3, ArcGIS, NYC OpenData, TDD(Mocha, Chai, Jasmine, Jest, Enzyme), Travis CI, Heroku, Git
     </p>
     <p>AWS Certified Cloud Practitioner. <i><a href="https://www.credly.com/badges/850a7920-1e22-47f9-bb66-fde6c62d6741/public_url">See Badge</a></i></p>
 
