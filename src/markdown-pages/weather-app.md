@@ -11,3 +11,4 @@ Weather App with Mapbox API and Weatherstack API.
 <a href="https://github.com/Svetanek/weather-app" class="project-link"  target="_blank" rel="noopener noreferrer">Github Link</a>
 
 <a href="https://current-weather-forecast-app.herokuapp.com/" class="project-link"  target="_blank" rel="noopener noreferrer">See Live</a>
+`

@@ -42,7 +42,7 @@ const AboutPage = () => (
     </p>
     <p>
       <span>Front end: </span>
-      Javascript (ES6), Typescript, React (inc. hooks, lazy, suspense, context...), D3/React,
+      Javascript (ES6), React (inc. hooks, lazy, suspense, context...), React Native, D3/React,
       Redux (inc. Thunk, Saga, reselect), Gatsby,
       HTML5, CSS3, SCSS, Styled Components,  Material UI
     </p>
@@ -50,7 +50,7 @@ const AboutPage = () => (
     <p>
       <span>Miscellaneous skills: </span>
       AWS, GraphQL, Apollo GraphQL,  SQL, Webpack, Babel, React-Map-GL/Mapbox-GL,  Stripe,
-     Passport(OAuth), JSON Web Tokens, Twilio Sendgrid, Nodemailer, Solidity, Truffle, web3, ArcGIS, NYC OpenData, TDD(Mocha, Chai, Jasmine, Jest, Enzyme), Travis CI, Heroku, Git
+     Passport(OAuth), JSON Web Tokens, Twilio Sendgrid, Nodemailer, Solidity, Truffle, web3, ArcGIS, NYC OpenData, TDD(Mocha, Chai, Jasmine, Jest, Enzyme), Travis CI, Heroku, Git, Figma.
     </p>
     <p>AWS Certified Cloud Practitioner. <i><a href="https://www.credly.com/badges/850a7920-1e22-47f9-bb66-fde6c62d6741/public_url">See Badge</a></i></p>
 
