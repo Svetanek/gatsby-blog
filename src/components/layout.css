@@ -691,3 +691,13 @@ pre tt:after {
   display: flex;
   justify-content: center;
 }
+.badgeLine {
+  /* height: 5rem;
+  width: 100%; */
+  display: flex;
+  margin-bottom: 1rem;
+}
+#badge-text {
+  align-self: center;
+  margin: 0 1rem;
+}
