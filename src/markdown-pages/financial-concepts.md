@@ -1,10 +1,10 @@
 ---
-title: "Financial planning concept calculator: Loan/Mortgage overpayment vs Whole Life Insurance".
+title: "Financial planning concept calculator: Loan/Mortgage overpayment vs Whole Life Insurance"
 date: "2021-01-18"
 description: "calculator to compare loan or mortgage overpayment option vs investing in WL"
 ---
 
-Acesssible with tab navigation and set focus.
+Acesssible app with tab navigation and set focus.
 This concept was presented during one of financial planning seminars. As I've had actuarial exams in my past, it was not a problem for me but I saw a struggle of many agents to follow instructor's calculations. Most online overpayment calculators offer calculation starting from day one of the mortgage, which is not the case often in real life.
 
 This calculator is devided in 2 parts.
