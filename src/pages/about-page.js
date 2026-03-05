@@ -52,7 +52,7 @@ const AboutPage = () => {
       After graduation I worked as a Software Engineer at a startup in NYC, where I had an opportunity to work on a mobile application, on both front end and back end.
     </p>
     <p>
-      In my most recent role as a software engineer at Anywhere, worked on a variety of projects from concept to production, designing and implementing scalable backend services using Node.js/TypeScript, AWS, MongoDB.
+      In my most recent role as a software engineer at Anywhere I worked on a variety of projects from concept to production, designing and implementing scalable backend services using Node.js/TypeScript, AWS, MongoDB.
     </p>For more details see my resume by clicking the icon in the header.<p>
     </p>
     </section>
