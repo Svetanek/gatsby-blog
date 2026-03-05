@@ -4,7 +4,7 @@ import "./components.css"
 const Footer = () => (
   <footer id="footer">
     <div>
-      © Svetlana Shinkar, {new Date().getFullYear()}
+      © Svetlana Shinkar, 2020
       {` `} Built with
       {` `}
       <a href="https://www.gatsbyjs.org">Gatsby</a>

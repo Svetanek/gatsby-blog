@@ -15,7 +15,7 @@ const Header = ({ siteTitle }) => (
     </h1>
     <nav id="header-nav">
       <a
-        href="https://drive.google.com/file/d/1EO2xq-OY3e6krPuX5j5gwq8GuTW9f3li/view?usp=sharing"
+        href="https://drive.google.com/file/d/1cReAuRT9dQuTLsUShIYZAlc-Cm35Naj9/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
         className="header-nav-link"
@@ -23,7 +23,7 @@ const Header = ({ siteTitle }) => (
         <FontAwesomeIcon className="header-icon" icon={faFileAlt} />
       </a>
       <a
-        href="https://www.linkedin.com/in/svetlanashinkarnyl/"
+        href="https://www.linkedin.com/in/svetlanashinkar/"
         target="_blank"
         rel="noopener noreferrer"
         className="header-nav-link"

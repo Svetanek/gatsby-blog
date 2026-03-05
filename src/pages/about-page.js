@@ -43,25 +43,23 @@ const AboutPage = () => {
         &#128578;
       </span>{" "}
       and know all about investments, blockchain technologies weren't left
-      behind. As I wanted to dig more and looked at Udemy courses, I saw that
-      general programming knowledge was required. The more I looked into it, the
-      more I realized that I want to do coding on a serious level. So I joined
+      behind. Digging into blockchain led me to a coding world. So I joined
       Fullstack Academy for their 17 weeks Immersive Software development
       program, which utilized TDD approach for single and pair programming
-      workshops plus tests (though you cannot see these repos on github as their
-      status is set to private). The curriculum included a required single
-      project - CRUD app and one more on student's choice, one required group
-      project - e-commerce app and one more on group's choice.
+      workshops. The curriculum included group and single projects. Some of these projects youy can see in the list of my projects on the homepage.
     </p>
     <p>
-      I am excited to continue this journey as also looking for opportunities in
-      the tech sector and hope to be able to expand on this newfound love.
+      After graduation I worked as a Software Engineer at a startup in NYC, where I had an opportunity to work on a mobile application, on both front end and back end.
+    </p>
+    <p>
+      In my most recent role as a software engineer at Anywhere, worked on a variety of projects from concept to production, designing and implementing scalable backend services using Node.js/TypeScript, AWS, MongoDB.
+    </p>For more details see my resume by clicking the icon in the header.<p>
     </p>
     </section>
     <section>
     <h2 className="center-horiz">Tech stack</h2>
     <p>
-      <span>Back end: </span>Node.js, Express, Rest API, GraphQL, PostgresSQL, Sequelize, MongoDB, Mongoose, Firebase
+      <span>Back end: </span>Node.js, Typescript, Express, middy, Docker,  MongoDB, Mongoose, Redis, PostgresSQL, Sequelize, GraphQL, SQL, AWS: CloudFormation, Route 53, EC2 (ALB, VPC, SG), Lambda, ECS, S3, DynamoDB, API Gateway, SQS, SNS, Eventbridge, Step Functions, Pinpoint, Secrets Manager, Systems Manager, IAM,Cloudwatch
     </p>
     <p>
       <span>Front end: </span>
@@ -71,25 +69,11 @@ const AboutPage = () => {
     </p>
 
     <p>
-      <span>Miscellaneous skills: </span>
-      AWS, SQL, Webpack, Babel, React-Map-GL/Mapbox-GL,  Stripe,
-     Passport(OAuth), JSON Web Tokens, Twilio Sendgrid, Nodemailer, Solidity, Truffle, web3, ArcGIS, NYC OpenData, TDD(Mocha, Chai, Jasmine, Jest, Enzyme), Travis CI, Circle CI, Heroku, Git, Figma.
+      <span>Miscellaneous: </span>
+       Webpack, Babel, OAuth 2.0 (Okta), Twilio, Sendgrid, TDD(Jest, Sinon, Mockito, Mocha, Chai, Jasmine), Mailosaur, Datadog, SonarQube, Gitlab CI,  Stripe, Swagger,Apple API, Google API, DAV/CardDav protocol
     </p>
-   <div className="badgeLine"><a href="https://www.credly.com/badges/850a7920-1e22-47f9-bb66-fde6c62d6741/public_url" alt="AWS badge"  target="_blank" rel="noopener noreferrer"><StyledBadge fluid={data.placeholderImage.childImageSharp.fluid} /></a><span id="badge-text">AWS Certified Cloud Practitioner.</span></div>
+   <div className="badgeLine"><a href="https://www.credly.com/badges/129dd9b8-7b86-400f-9780-7ac7e533e33f/public_url" alt="AWS badge"  target="_blank" rel="noopener noreferrer"><StyledBadge fluid={data.placeholderImage.childImageSharp.fluid} /></a><span id="badge-text">AWS Certified Solutions Architect - Associate</span></div>
    </section>
-
-
-   <p><i>
-      *** Also I want to add couple words why I've chosen these colors you see
-      on the site. Red and white are colors of flags of 2 countries I love.
-      One is my home country, Belarus, which is going through difficult
-      times now. So I want to express my support to people, who are peacefully
-      fighting against violence and injustice. If you want to read more,
-      <a href="https://www.bbc.com/news/world-europe-53799065"> HERE </a>is a
-      good article.
-      And the second country is Japan 🇯🇵, where I spent some time of my life and was impressed with the country and its people.
-    </i>
-    </p>
 
     {/* <br /> */}
     <Link className="center-horiz" to="/">
