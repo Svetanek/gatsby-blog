@@ -46,20 +46,20 @@ const AboutPage = () => {
       behind. Digging into blockchain led me to a coding world. So I joined
       Fullstack Academy for their 17 weeks Immersive Software development
       program, which utilized TDD approach for single and pair programming
-      workshops. The curriculum included group and single projects. Some of these projects youy can see in the list of my projects on the homepage.
+      workshops. The curriculum included group and single projects. Some of these projects you can see in the list of my projects on the homepage.
     </p>
     <p>
-      After graduation I worked as a Software Engineer at a startup in NYC, where I had an opportunity to work on a mobile application, on both front end and back end.
+      After graduation I worked as a Software Engineer at a startup in NYC, where I had an opportunity to work on a mobile application, on both front end and back end (GraphQL, React-Native, Postgres).
     </p>
     <p>
-      In my most recent role as a software engineer at Anywhere I worked on a variety of projects from concept to production, designing and implementing scalable backend services using Node.js/TypeScript, AWS, MongoDB.
-    </p>For more details see my resume by clicking the icon in the header.<p>
+      In my most recent role as a software engineer at Anywhere I worked on a variety of projects from concept to production, designing and implementing scalable backend services using Node.js/TypeScript, AWS, MongoDB levereging AI tools to optimize development process.
+    </p>You can see my resume by clicking the document icon in the header.<p>
     </p>
     </section>
     <section>
     <h2 className="center-horiz">Tech stack</h2>
     <p>
-      <span>Back end: </span>Node.js, Typescript, Express, middy, Docker,  MongoDB, Mongoose, Redis, PostgresSQL, Sequelize, GraphQL, SQL, AWS: CloudFormation, Route 53, EC2 (ALB, VPC, SG), Lambda, ECS, S3, DynamoDB, API Gateway, SQS, SNS, Eventbridge, Step Functions, Pinpoint, Secrets Manager, Systems Manager, IAM,Cloudwatch
+      <span>Back end: </span>Node.js, Typescript, Express, middy, Docker,  MongoDB, Mongoose, Redis, PostgresSQL, Sequelize, GraphQL, SQL, AWS: CloudFormation, Route 53, EC2 (ALB, VPC, SG), Lambda, ECS, S3, DynamoDB, API Gateway, SQS, SNS, Eventbridge, Step Functions, Pinpoint, Secrets Manager, Systems Manager, IAM,Cloudwatch, Bedrock
     </p>
     <p>
       <span>Front end: </span>
@@ -70,9 +70,13 @@ const AboutPage = () => {
 
     <p>
       <span>Miscellaneous: </span>
-       Webpack, Babel, OAuth 2.0 (Okta), Twilio, Sendgrid, TDD(Jest, Sinon, Mockito, Mocha, Chai, Jasmine), Mailosaur, Datadog, SonarQube, Gitlab CI,  Stripe, Swagger,Apple API, Google API, DAV/CardDav protocol
+       Webpack, Babel, OAuth 2.0 (Okta), Twilio, Sendgrid, TDD(Jest, Sinon, Mockito, Mocha, Chai, Jasmine), Mailosaur, Datadog, SonarQube, Gitlab CI,  Stripe, Swagger, Apple API, Google API, DAV/CardDav protocol
     </p>
    <div className="badgeLine"><a href="https://www.credly.com/badges/129dd9b8-7b86-400f-9780-7ac7e533e33f/public_url" alt="AWS badge"  target="_blank" rel="noopener noreferrer"><StyledBadge fluid={data.placeholderImage.childImageSharp.fluid} /></a><span id="badge-text">AWS Certified Solutions Architect - Associate</span></div>
+      <div className="badgeLine">
+        {/* <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="66f741e5-aef0-4cde-a3c4-72e4a1929b8e" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script> */}
+        <a href="https://www.credly.com/badges/66f741e5-aef0-4cde-a3c4-72e4a1929b8e/public_url" alt="AWS badge"  target="_blank" rel="noopener noreferrer"><StyledBadge fluid={data.placeholderImage.childImageSharp.fluid} /></a>
+        <span id="badge-text">AWS Certified AI Practitioner</span></div>
    </section>
 
     {/* <br /> */}
